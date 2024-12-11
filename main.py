@@ -15,7 +15,6 @@ data = pandas.read_csv("data/french_words.csv")
 
 wordsToLearn = data.to_dict(orient='records')
 
-#test
 # ---------------------------- Function Definition ------------------------------- #
 def flipCard():
     canvas.itemconfig(card, image=cardBack)
